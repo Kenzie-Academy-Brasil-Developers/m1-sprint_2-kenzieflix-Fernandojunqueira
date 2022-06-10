@@ -1,0 +1,79 @@
+html,body,header,ul,li,img,p,h1,h2,nav,div,a,section{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 16px;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    color:white;
+    
+}
+.container{
+    max-width: 700px;
+}
+body{
+    background-color: black;
+    
+}
+main{
+    justify-content: center;
+    
+    
+}
+header{
+    display: block;
+    text-align: center;
+
+}
+section{
+    text-align: center;
+}
+section>h2{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    margin: 73px -18px 61px 0;
+}
+ul{
+    display: flex;
+    max-width: 700px;
+    margin-left: 362px;
+   justify-content: space-around;
+  
+}
+ul li>img{
+    border-radius: 8px;
+    border: 1px solid transparent;
+
+}
+
+ul li>img:hover{
+    border: 1px solid white;
+   
+}
+li{
+    width: 160px;
+    text-align: center;
+}
+section>p{
+    margin: 102px 556px 18px 614px;
+    border: 1px white solid;
+    padding: 15px;
+    border-radius: 8px;
+    transition: 0.8s;
+    
+}
+section>p:hover{
+    background-color: white;
+    color: black;
+    transition: 0.7s;
+
+   
+}
+li:hover{
+    font-weight: 800;
+}
